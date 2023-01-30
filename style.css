@@ -1,11 +1,23 @@
+html{
+    width: 100%;
+    height: 100%;
+}
 body{
     background-color: #fafafa;
     display: flex;
     align-items: center;
+    min-width: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+   
 }
+
 
 .image img{
     position: absolute;
+    display: flex;
     top: 72px;
     left: 166px;
     width: 576px;
@@ -19,11 +31,15 @@ body{
 }
 
 .text img{
-    position: relative;
+    position: absolute;
     top: 106px;
     left: 906px;
     width: 272px;
     height: 58px;
+}
+.container2 {
+    width: 100%;
+    height: 100%;
 }
 
 .div1 {
@@ -86,8 +102,8 @@ input {
     top: 539px;
     left: 906px;
     display: flex;
-    position: fixed;
     flex-direction: row;
+    position: absolute;
 }
 .button{
     width: 138px;
@@ -133,4 +149,12 @@ p{
     letter-spacing: 0px;
     color: #C8242F;
     opacity: 1;
+}
+
+@media only screen  and (max-width: 1000px) {
+    .image img{
+      width: 100%;
+      height: auto;
+      
+    }
 }
