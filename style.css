@@ -21,12 +21,13 @@ body{
     display: flex;
     top: 72px;
     left: 166px;
-    width: 576px;
-    height: 576px;
-    border-radius: 50%;
+    width: 800px;
+    height: 450px;
+    border-radius: 100%;
     background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 31px #0000000A;
     border: 20px solid #FFFFFF;
+    
     
 
 }
@@ -190,15 +191,14 @@ p{
         margin-left: 5px;
     }
     .container2 {
-        justify-content: left;
-        margin-right: 20px;
-        padding: 20px;
+        float: left;
+        margin-left: 8px;
     }
    
     .text img{
         width: 35%;
         height: 25%;
-        top: 100px;
+        /* top: 100px; */
         
     }
     .div1 {
