@@ -11,60 +11,55 @@
 
 <body>
     <header>
-        <nav class="topnav1">
-            <div class="topnav">
-                <img class="img1" src="images/menu-bar.svg" alt="404 not found">
-                <img class="img2" src="images/header-logo.svg" alt="">
-                <img class="img3" src="images/search-icon.svg" alt="">
-                <p class="search">search</p>
-                <img class="img4" src="images/notification-icon.svg" alt="">
-                <img class="img5" src="images/profile.png" alt="">
-                <p class="pname">John Doe</p>
-
-                <img class="img6" src="images/downward-arrow.svg" alt="">
-
+        <nav class="navbar-dashboard">
+            <div class="div-dashboard-logo">
+             <button onclick="myFunction()" ><img src="./images/menu-bar.svg" alt="logo" id="dashboard-menu-logo" ></button>
+              <img src="./images/logo.svg" alt="logo" id="dashboard-web-logo">
             </div>
-        </nav>
-    </header>
-
-
-    <main>
-        <div class="main">
-            <div class="sidebar">
-                <div class="sidecontainer">
-
-                    <div class="dashboard">
-                        <img src="images/dashboard-active.svg" alt="" class="img7">
-                        <p class="dashboard1"> Dashboard</p>
-                    </div>
-
-                    <div class="analysis">
-
-                        <img src="images/graph-default.svg" alt="" class="img8"><a href="innerpage.htnml"
-                            class="analysis1">Analysis</a>
-                    </div>
-                    <div class="inbox">
-                        <img src="images/inbox-default.svg" alt="" class="img9">
-                        <p class="inbox1">Inbox</p>
-                    </div>
-                    <div class="history">
-                        <img src="images/clock-default.svg" alt="" class="img10">
-                        <p class="history1">History</p>
-                    </div>
-                    <div class="User">
-                        <img src="images/user-default.svg" alt="" class="img11">
-                        <p class="user1">User</p>
-                    </div>
-                    <div class="Maintenance">
-                        <img src="images/maintenance-default.svg" alt="" class="img12">
-                        <p class="maintenance1">Maintenance</p>
-                    </div>
-                    <div class="setting">
-                        <img src="images/setting-default.svg" alt="" class="img13">
-                        <p class="setting1">Seting</p>
-                    </div>
-
-                </div>
+            <div class="div-dashboard-search">
+              <img src="./images/search-icon.svg" alt="" id="dashboard-search-icon">
+              <p>Search</p>
+            </div>
+            <div class="div-dashboard-user">
+              <img src="./images/notification-icon.svg" alt="" id="dashboard-notification-icon">
+              <img src="./images/profile.png" alt="" id="dashboard-profile-icon">
+              <p>John Doe</p>
+              <img src="./images/select-downward.svg" alt="" id="dashboard-select-downward">
+            </div>
+          </nav>
+        
+          <div class="dashboard">
+        
+        
+            <div class="sidebar" id="toggledash">
+              <div class="sidebar-detail dashboard-active-tab">
+                <img src="./images/dashboard-active.svg" alt="" id="dashboard-active">
+                <div>Dashboard</div>
+              </div>
+              <div class="sidebar-detail">
+                <img src="./images/graph-default.svg" alt="" id="graph-default1">
+                <div>Analysis</div>
+              </div>
+              <div class="sidebar-detail">
+                <img src="./images/inbox-default.svg" alt="" id="inbox-default">
+                <div>Inbox</div>
+              </div>
+              <div class="sidebar-detail">
+                <img src="./images/clock-default.svg" alt="" id="clock-default">
+                <div>History</div>
+              </div>
+              <div class="sidebar-detail">
+                <img src="./images/user-default.svg" alt="" id="user-default">
+                <div>Users</div>
+              </div>
+              <div class="sidebar-detail">
+                <img src="./images/maintenance-default.svg" alt="" id="maintenance-default">
+                <div>Maintenance</div>
+              </div>
+              <div class="sidebar-detail">
+                <img src="./images/setting-default.svg" alt="" id="setting-default">
+                <div>Setting</div>
+              </div>
             </div>
 
 
@@ -201,6 +196,7 @@
                                 <button class="btn-red-border">Secondary</button>
                             </div>
                         </div>
+                        
 
                         
                         
@@ -221,6 +217,7 @@
 
 
     </main>
+    <script src="js/innerpage.js"></script>
 
 
 </body>

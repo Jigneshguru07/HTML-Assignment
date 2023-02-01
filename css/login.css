@@ -1,0 +1,144 @@
+html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+ .col-xl-5{
+    min-width: 100%;
+    min-height: 100%;
+} 
+.vh-100{
+    display: grid;
+    grid-template-columns: 70fr 30fr;
+} 
+.col-xl-5 img{
+    width: 100%;
+    height: 100vh;
+}
+.text{
+    width: 100%;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    bottom: 120px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 158px;
+    
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 13px;
+    bottom: 20px;
+    width: 100%;
+    margin-left: 158px;
+    margin-top: 20px;
+height: 120px;
+text-align: left;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.offset-xl-1 {
+    height: 100%;
+    width: 100%;
+}
+form{
+    width: 100%;
+    height: 100%;
+    margin-top: 120px;
+    padding: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+.form-label{
+    width: 401px;
+height: 56px;
+}
+input[type=text], input[type=password] {
+    width: 401px;
+height: 56px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 10px #2B64B11F;
+border: 1px solid #2B64B1;
+border-radius: 3px;
+opacity: 1;
+margin-top: 20px;
+  }
+  .login{
+    width: 401px;
+height: 48px;
+background: #F8863400 0% 0% no-repeat padding-box;
+border: 2px solid #F88634;
+border-radius: 24px;
+opacity: 1;
+margin-top: 20px;
+  }
+  button {
+    background-color: white;
+    color: #F88634;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    width: 401px;
+height: 48px;
+background: #F8863400 0% 0% no-repeat padding-box;
+
+border-radius: 24px;
+opacity: 1;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  } 
+  .password{
+    width: 130px;
+height: 19px;
+text-align: center;
+letter-spacing: 0px;
+color: #414141;
+opacity: 1;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+  } 
+  .div1{
+    width: 266px;
+height: 19px;
+text-align: left;
+letter-spacing: 0px;
+opacity: 1;
+margin-top: 20px;
+  }
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
